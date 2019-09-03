@@ -82,7 +82,7 @@
                     Laravel
                 </div>
 
-                <div class="links">
+                <div class="title m-b-md">
                     {{ date("d/m/Y H:i:s") }}
                 </div>
                 
