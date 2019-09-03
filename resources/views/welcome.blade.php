@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="links">
-                    {{ data("d/m/Y H:i:s") }}
+                    {{ date("d/m/Y H:i:s") }}
                 </div>
                 
                 <div class="links">    
