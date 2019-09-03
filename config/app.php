@@ -65,8 +65,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
-
+     //'timezone' => 'UTC',
+     'timezone' => 'Asis/Bangkok',
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
@@ -78,7 +78,9 @@ return [
     |
     */
 
-    'locale' => 'en',
+    
+    //'locale' => 'en',
+    'locale' => 'th',
 
     /*
     |--------------------------------------------------------------------------
