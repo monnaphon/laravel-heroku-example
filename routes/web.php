@@ -14,12 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', function() {
-    return '<h1>users!555</h1>';
-});
+
 Route ::get(showmane',function() {
     return  '<h1>Hello Laravel</h1>';
 });
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
