@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route ::get(showmane',function() {
+Route::get('showmane',function() {
     return  '<h1>Hello Laravel</h1>';
 });
 
