@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,9 +9,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('showname/{name}','HelloController@showHello');
-Route::get('showproduct/{prodcut}','HelloController@resultProduct');
+Route::get('showname/{name}','HellController@showHello');
+Route::get('showproduct/{product}','HelloController@resultProduct');
