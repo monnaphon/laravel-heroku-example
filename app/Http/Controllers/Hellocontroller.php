@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class HelloController extends Controller
 {
 function showHello(){
-  return '<h1>Hello Contreller : Monnaphon Junthong</h1';
+  return '<h1>Hello Contreller : Monnaphon</h1';
   }
 }
