@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('showname/{name}','Hellocontroller@showHello');
-Route::get('showproduct/{prodcut}','Hellocontroller@resultProduct');
+Route::get('showname/{name}','HelloController@showHello');
+Route::get('showproduct/{prodcut}','HelloController@resultProduct');
